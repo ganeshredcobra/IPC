@@ -1,0 +1,12 @@
+# Ubuntu 16.04 Trusty support
+dist: xenial
+# Enable C++ support
+language: c
+# Compiler selection
+compiler:
+  - clang
+  - gcc
+# Build steps
+script:
+  - SYSV/Static_Library/
+  - make
