@@ -8,5 +8,5 @@ compiler:
   - gcc
 # Build steps
 script:
-  - SYSV/Static_Library/
+  - cd SYSV/Static_Library/
   - make
